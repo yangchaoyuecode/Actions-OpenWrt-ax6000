@@ -15,4 +15,7 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns.git;v4' >>feeds.conf.default
+echo 'src-git rtp2httpd https://github.com/stackia/rtp2httpd.git' >>feeds.conf.default
+echo 'src-git passwall2 https://github.com/Openwrt-Passwall/openwrt-passwall2.git' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
